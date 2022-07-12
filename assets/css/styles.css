@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    color:#FFB57F !important;
+    font-weight: 700;
+    font-size: 35px;
+}
+.image-box img{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+
+}
+.create-account{
+    margin-right: 20px !important;
+}
+.create-account:hover{
+    background-color: #E2E4E5 !important;
+    color: #3B5B59 !important;
+}
+.title{
+    font-family: Open Sans,Arial,sans-serif;
+    color: #2e2e2e;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icons i{
+    color: #005850 !important;
+}
+.send-message{
+    color: #005850 !important;
+}
+.facebook{
+    border-right: 1px solid black; 
+}
+
+.badge-header{
+background-color: #2E2E2E;
+height: 64px;
+}
+.badge-link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 64px;
+    text-decoration: none;
+    padding: 0 50px;
+    outline-offset: -7px;
+}
+.badge-link:hover{
+    color: #fff; 
+}
+.badge-image-box img{
+    width: 110px;
+    height: 110px;
+}
+.certificate a{
+    text-decoration: none !important;
+    margin-left: 10px !important;  
+    color: #005850 !important; 
+}
+.certificate a:hover{
+    text-decoration: underline !important;
+}
+#footer{
+    background: url('../images/footer-hr.png') left top/200% 4px repeat-x;
+    clear: both;
+    min-height: 60px;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    line-height: 1.05625rem;
+}
+.footer-nav-link ul{
+    padding: 15px;
+}
+.footer-nav-link ul li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+
+@media screen and (max-width: 500px) {
+    .create-account{
+        display: none;
+    }
+    .btn-box{
+        padding: 0 !important;
+    }
+    .image-box img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    
+    }
+    .micro{
+        border: none !important;
+     border-top: 1px solid black !important;  
+     border-bottom: 1px solid black !important; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-box{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+   
+  }
