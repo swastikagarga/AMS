@@ -40,57 +40,57 @@ $single_student_row = mysqli_fetch_array($single_student_result);
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">First Name</label>
                                                     <input type="hidden" value="<?php echo $single_student_row['id']; ?>" name="id">
-                                                    <input type="text" value="<?php echo $single_student_row['first_name']; ?>" name="first_name" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['first_name']; ?>" name="first_name" class="form-control" id="exampleInputEmail1" placeholder="Enter first name">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Last Name</label>
-                                                    <input type="text" value="<?php echo $single_student_row['last_name']; ?>" name="last_name" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['last_name']; ?>" name="last_name" class="form-control" id="exampleInputEmail1" placeholder="Enter last name">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Bio</label>
-                                                    <input type="text" value="<?php echo $single_student_row['bio']; ?>" name="bio" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['bio']; ?>" name="bio" class="form-control" id="exampleInputEmail1" placeholder="Enter bio">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Current Organasition</label>
-                                                    <input type="text" value="<?php echo $single_student_row['current_org']; ?>" name="current_org" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['current_org']; ?>" name="current_org" class="form-control" id="exampleInputEmail1" placeholder="Enter current organisation">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Current Position</label>
-                                                    <input type="text" value="<?php echo $single_student_row['current_position']; ?>" name="current_position" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['current_position']; ?>" name="current_position" class="form-control" id="exampleInputEmail1" placeholder="Enter current postion">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Website Url</label>
-                                                    <input type="text" value="<?php echo $single_student_row['website_url']; ?>" name="website_url" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['website_url']; ?>" name="website_url" class="form-control" id="exampleInputEmail1" placeholder="Enter website url">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Birth Year</label>
-                                                    <input type="text" value="<?php echo $single_student_row['birth_year']; ?>" name="birth_year" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="number" value="<?php echo $single_student_row['birth_year']; ?>" name="birth_year" class="form-control" id="exampleInputEmail1" placeholder="Enter birth year">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Country</label>
-                                                    <input type="text" value="<?php echo $single_student_row['country']; ?>" name="country" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['country']; ?>" name="country" class="form-control" id="exampleInputEmail1" placeholder="Enter country">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">City</label>
-                                                    <input type="text" value="<?php echo $single_student_row['city']; ?>" name="city" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['city']; ?>" name="city" class="form-control" id="exampleInputEmail1" placeholder="Enter city">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Zip</label>
-                                                    <input type="text" value="<?php echo $single_student_row['zip']; ?>" name="zip" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['zip']; ?>" name="zip" class="form-control" id="exampleInputEmail1" placeholder="Enter zip">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Registration Number</label>
-                                                    <input type="text" value="<?php echo $single_student_row['registration_number']; ?>" name="registration_number" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['registration_number']; ?>" name="registration_number" class="form-control" id="exampleInputEmail1" placeholder="Enter registration number">
                                                 </div>
 
                                                 <div class="form-group">
@@ -100,12 +100,12 @@ $single_student_row = mysqli_fetch_array($single_student_result);
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Password</label>
-                                                    <input type="text" value="<?php echo $single_student_row['password']; ?>" name="password" class="form-control" id="exampleInputEmail1" placeholder="Enter Mobile">
+                                                    <input type="text" value="<?php echo $single_student_row['password']; ?>" name="password" class="form-control" id="exampleInputEmail1" placeholder="Enter password">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Facebook Url</label>
-                                                    <input type="text" value="<?php echo $single_student_row['facebook_url']; ?>" name="facebook_url" class="form-control" id="exampleInputEmail1" placeholder="Enter Mobile">
+                                                    <input type="text" value="<?php echo $single_student_row['facebook_url']; ?>" name="facebook_url" class="form-control" id="exampleInputEmail1" placeholder="Enter facebook url">
                                                 </div>
                                             
                                             

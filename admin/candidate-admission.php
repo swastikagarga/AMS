@@ -70,12 +70,12 @@ $single_student_row = mysqli_fetch_array($single_student_result);
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Caste</label>
-                                                    <input type="text" value="<?php echo $single_student_row['caste']; ?>"  name="caste" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['caste']; ?>"  name="caste" class="form-control" id="exampleInputEmail1" placeholder="Enter caste">
                                                 </div>
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Address</label>
-                                                    <input type="text" value="<?php echo $single_student_row['address']; ?>" name="address" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                    <input type="text" value="<?php echo $single_student_row['address']; ?>" name="address" class="form-control" id="exampleInputEmail1" placeholder="Enter address">
                                                 </div>
 
 
@@ -86,7 +86,7 @@ $single_student_row = mysqli_fetch_array($single_student_result);
 
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Email</label>
-                                                    <input type="text" value="<?php echo $single_student_row['email']; ?>" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Mobile">
+                                                    <input type="text" value="<?php echo $single_student_row['email']; ?>" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                                                 </div>
                                             
                                             
@@ -168,7 +168,7 @@ $single_student_row = mysqli_fetch_array($single_student_result);
                                             <div class="text-center">
                                             <img class="profile-user-img img-fluid img-circle"
                                                 src="<?php echo $single_student_row['signature']; ?>"
-                                                alt="User profile picture">
+                                                alt="User signature picture">
                                             </div>
                                             <br>
 
@@ -207,7 +207,7 @@ $single_student_row = mysqli_fetch_array($single_student_result);
                                             <div class="text-center">
                                             <img class="profile-user-img img-fluid img-circle"
                                                 src="<?php echo $single_student_row['image']; ?>"
-                                                alt="User profile picture">
+                                                alt="User passport picture">
                                             </div>
                                             <br>
 
@@ -245,7 +245,7 @@ $single_student_row = mysqli_fetch_array($single_student_result);
                                             <div class="text-center">
                                             <img class="profile-user-img img-fluid img-circle"
                                                 src="<?php echo $single_student_row['10th_marks']; ?>"
-                                                alt="User profile picture">
+                                                alt="User 10th marksheet ">
                                             </div>
                                             <br>
 
@@ -283,7 +283,7 @@ $single_student_row = mysqli_fetch_array($single_student_result);
                                             <div class="text-center">
                                             <img class="profile-user-img img-fluid img-circle"
                                                 src="<?php echo $single_student_row['12th_marks']; ?>"
-                                                alt="User profile picture">
+                                                alt="User 12th marksheet ">
                                             </div>
                                             <br>
 

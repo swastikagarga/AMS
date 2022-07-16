@@ -41,6 +41,7 @@ $system_footer_row = mysqli_fetch_array($system_footer_result);
 </head>
 
 <body class="hold-transition login-page">
+<a href="../index.php" >Back </a>
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">

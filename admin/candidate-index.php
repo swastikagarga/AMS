@@ -24,9 +24,9 @@ $students_result = mysqli_query($conn, $select_all_students_query);
                                 <div class="col-8">
                                     <h5 class="card-title m-0">Students</h5>
                                 </div>
-                                <div class="col-4">
+                                <!-- <div class="col-4">
                                     <a href="new-student.php" type="button" class="btn btn-primary float-sm-right"><i class="fas fa-user-graduate"></i> Add New</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <!-- /.card-header -->

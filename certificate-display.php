@@ -46,6 +46,7 @@ $certificate_row = mysqli_fetch_array($certificate_result);
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
+		
                 <a class="navbar-brand" href="#!"><?php echo $system_row['setting_value'] ?></a>
                 <a class="btn btn-primary" href="admin/login.php">Login</a>
             </div>

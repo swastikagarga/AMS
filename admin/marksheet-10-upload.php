@@ -54,7 +54,7 @@ if ($uploadOk == 0) {
 
     if (mysqli_query($conn, $sql)) {
 		header('location: candidate-admission.php?id=');
-        $_SESSION["profile_picture_success_message"] = "Signature has been updated.";
+        $_SESSION["profile_picture_success_message"] = "Marksheet has been updated.";
     } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
